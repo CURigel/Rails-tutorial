@@ -10,4 +10,8 @@ class ApplicationController < ActionController::Base
   def goodbye
     render text: "goodbye, world!"
   end
+  
+  def hi_lisa
+    render text: "Hi Lisa :)"
+  end
 end
